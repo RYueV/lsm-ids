@@ -1,0 +1,23 @@
+[
+  "Active Std",
+  "Bwd Avg Bulk Rate",
+  "Bwd Avg Bytes/Bulk",
+  "Bwd Avg Packets/Bulk",
+  "Bwd PSH Flags",
+  "Bwd URG Flags",
+  "CWE Flag Count",
+  "ECE Flag Count",
+  "FIN Flag Count",
+  "Fwd Avg Bulk Rate",
+  "Fwd Avg Bytes/Bulk",
+  "Fwd Avg Packets/Bulk",
+  "Fwd PSH Flags",
+  "Fwd URG Flags",
+  "Idle Std",
+  "RST Flag Count",
+  "SYN Flag Count",
+  "Subflow Bwd Packets",
+  "Total Backward Packets",
+  "URG Flag Count",
+  "act_data_pkt_fwd"
+]
