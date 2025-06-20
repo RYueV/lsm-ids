@@ -4,17 +4,17 @@ import numpy as np
 
 
 # Максимально возможная задержка (общее время обработки одной записи), мс
-MAX_DELAY_MS = 20.0
+MAX_DELAY_MS = 30.0
 # Количество колец задержек (временных каналов)
-NUM_RINGS = 6
+NUM_RINGS = 4
 # Ширина кольца задержек, мс
 RING_WIDTH = MAX_DELAY_MS / NUM_RINGS
-# Степень нелинейности
-GAMMA = 0.7
 # Максимально возможное колебание времени, мс
 JITTER_FRAC = 0.005
 # Фиксация рандома
 RAND = np.random.RandomState(42)
+# Степени нелинейности для каждого из колец
+GAMMAS = [0.3, 0.7, 1.0, 1.5]
 
 
 
@@ -33,6 +33,8 @@ def build_encoder(
     feature_ranges,         # словарь диапазонов значений признаков
     skip_zeros=False        # пропускать ли нулевые значения при кодировании
 ):
+    assert len(GAMMAS) == NUM_RINGS, "Длина GAMMAS должна быть равна NUM_RINGS"
+
     # Сортировка признаков по их наименованию в алфавитном порядке
     num_cols = sorted(feature_ranges)
     # Количество признаков
@@ -72,12 +74,12 @@ def build_encoder(
 
             # Кодируем спайки с задержками в каждое из NUM_RINGS колец
             for r_idx in range(NUM_RINGS):
-                base = r_idx * RING_WIDTH 
+                gamma = GAMMAS[r_idx]
                 # Вычисление задержки в мс (чем больше значение, тем раньше спайк)
-                delay = base + RING_WIDTH  * (1.0 - norm_value**GAMMA)
+                delay = MAX_DELAY_MS * (1.0 - norm_value**gamma)
                 # Случайное колебание
-                delay += RAND.uniform(-JITTER_FRAC, JITTER_FRAC) * RING_WIDTH 
-                delay = np.clip(delay, base, base + RING_WIDTH )
+                delay += RAND.uniform(-JITTER_FRAC, JITTER_FRAC) * MAX_DELAY_MS 
+                delay = np.clip(delay, 0.0, MAX_DELAY_MS)
                 # Обновляем список спайков
                 spikes.append((calc_channel_idx(feat_idx, r_idx), delay))
 
