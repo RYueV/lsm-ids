@@ -1,0 +1,1826 @@
+{
+  "0": {
+    "feature": "ACK Flag Count",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "1": {
+    "feature": "Active Max",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "2": {
+    "feature": "Active Mean",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "3": {
+    "feature": "Active Min",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "4": {
+    "feature": "Average Packet Size",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "5": {
+    "feature": "Avg Bwd Segment Size",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "6": {
+    "feature": "Avg Fwd Segment Size",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "7": {
+    "feature": "Bwd Header Length",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "8": {
+    "feature": "Bwd IAT Max",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "9": {
+    "feature": "Bwd IAT Mean",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "10": {
+    "feature": "Bwd IAT Min",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "11": {
+    "feature": "Bwd IAT Std",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "12": {
+    "feature": "Bwd IAT Total",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "13": {
+    "feature": "Bwd Packet Length Max",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "14": {
+    "feature": "Bwd Packet Length Mean",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "15": {
+    "feature": "Bwd Packet Length Min",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "16": {
+    "feature": "Bwd Packet Length Std",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "17": {
+    "feature": "Bwd Packets/s",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "18": {
+    "feature": "Destination Port",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "19": {
+    "feature": "Down/Up Ratio",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "20": {
+    "feature": "Flow Bytes/s",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "21": {
+    "feature": "Flow Duration",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "22": {
+    "feature": "Flow IAT Max",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "23": {
+    "feature": "Flow IAT Mean",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "24": {
+    "feature": "Flow IAT Min",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "25": {
+    "feature": "Flow IAT Std",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "26": {
+    "feature": "Flow Packets/s",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "27": {
+    "feature": "Fwd Header Length",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "28": {
+    "feature": "Fwd IAT Max",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "29": {
+    "feature": "Fwd IAT Mean",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "30": {
+    "feature": "Fwd IAT Min",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "31": {
+    "feature": "Fwd IAT Std",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "32": {
+    "feature": "Fwd IAT Total",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "33": {
+    "feature": "Fwd Packet Length Max",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "34": {
+    "feature": "Fwd Packet Length Mean",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "35": {
+    "feature": "Fwd Packet Length Min",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "36": {
+    "feature": "Fwd Packet Length Std",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "37": {
+    "feature": "Fwd Packets/s",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "38": {
+    "feature": "Idle Max",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "39": {
+    "feature": "Idle Mean",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "40": {
+    "feature": "Idle Min",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "41": {
+    "feature": "Init_Win_bytes_backward",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "42": {
+    "feature": "Init_Win_bytes_forward",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "43": {
+    "feature": "Max Packet Length",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "44": {
+    "feature": "Min Packet Length",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "45": {
+    "feature": "PSH Flag Count",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "46": {
+    "feature": "Packet Length Mean",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "47": {
+    "feature": "Packet Length Std",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "48": {
+    "feature": "Packet Length Variance",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "49": {
+    "feature": "Protocol",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "50": {
+    "feature": "Subflow Bwd Bytes",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "51": {
+    "feature": "Subflow Fwd Bytes",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "52": {
+    "feature": "Subflow Fwd Packets",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "53": {
+    "feature": "Total Fwd Packets",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "54": {
+    "feature": "Total Length of Bwd Packets",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "55": {
+    "feature": "Total Length of Fwd Packets",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "56": {
+    "feature": "min_seg_size_forward",
+    "ring": 0,
+    "delay_window_ms": [
+      0.0,
+      7.5
+    ]
+  },
+  "57": {
+    "feature": "ACK Flag Count",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "58": {
+    "feature": "Active Max",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "59": {
+    "feature": "Active Mean",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "60": {
+    "feature": "Active Min",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "61": {
+    "feature": "Average Packet Size",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "62": {
+    "feature": "Avg Bwd Segment Size",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "63": {
+    "feature": "Avg Fwd Segment Size",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "64": {
+    "feature": "Bwd Header Length",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "65": {
+    "feature": "Bwd IAT Max",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "66": {
+    "feature": "Bwd IAT Mean",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "67": {
+    "feature": "Bwd IAT Min",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "68": {
+    "feature": "Bwd IAT Std",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "69": {
+    "feature": "Bwd IAT Total",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "70": {
+    "feature": "Bwd Packet Length Max",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "71": {
+    "feature": "Bwd Packet Length Mean",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "72": {
+    "feature": "Bwd Packet Length Min",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "73": {
+    "feature": "Bwd Packet Length Std",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "74": {
+    "feature": "Bwd Packets/s",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "75": {
+    "feature": "Destination Port",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "76": {
+    "feature": "Down/Up Ratio",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "77": {
+    "feature": "Flow Bytes/s",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "78": {
+    "feature": "Flow Duration",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "79": {
+    "feature": "Flow IAT Max",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "80": {
+    "feature": "Flow IAT Mean",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "81": {
+    "feature": "Flow IAT Min",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "82": {
+    "feature": "Flow IAT Std",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "83": {
+    "feature": "Flow Packets/s",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "84": {
+    "feature": "Fwd Header Length",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "85": {
+    "feature": "Fwd IAT Max",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "86": {
+    "feature": "Fwd IAT Mean",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "87": {
+    "feature": "Fwd IAT Min",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "88": {
+    "feature": "Fwd IAT Std",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "89": {
+    "feature": "Fwd IAT Total",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "90": {
+    "feature": "Fwd Packet Length Max",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "91": {
+    "feature": "Fwd Packet Length Mean",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "92": {
+    "feature": "Fwd Packet Length Min",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "93": {
+    "feature": "Fwd Packet Length Std",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "94": {
+    "feature": "Fwd Packets/s",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "95": {
+    "feature": "Idle Max",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "96": {
+    "feature": "Idle Mean",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "97": {
+    "feature": "Idle Min",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "98": {
+    "feature": "Init_Win_bytes_backward",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "99": {
+    "feature": "Init_Win_bytes_forward",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "100": {
+    "feature": "Max Packet Length",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "101": {
+    "feature": "Min Packet Length",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "102": {
+    "feature": "PSH Flag Count",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "103": {
+    "feature": "Packet Length Mean",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "104": {
+    "feature": "Packet Length Std",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "105": {
+    "feature": "Packet Length Variance",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "106": {
+    "feature": "Protocol",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "107": {
+    "feature": "Subflow Bwd Bytes",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "108": {
+    "feature": "Subflow Fwd Bytes",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "109": {
+    "feature": "Subflow Fwd Packets",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "110": {
+    "feature": "Total Fwd Packets",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "111": {
+    "feature": "Total Length of Bwd Packets",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "112": {
+    "feature": "Total Length of Fwd Packets",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "113": {
+    "feature": "min_seg_size_forward",
+    "ring": 1,
+    "delay_window_ms": [
+      7.5,
+      15.0
+    ]
+  },
+  "114": {
+    "feature": "ACK Flag Count",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "115": {
+    "feature": "Active Max",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "116": {
+    "feature": "Active Mean",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "117": {
+    "feature": "Active Min",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "118": {
+    "feature": "Average Packet Size",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "119": {
+    "feature": "Avg Bwd Segment Size",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "120": {
+    "feature": "Avg Fwd Segment Size",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "121": {
+    "feature": "Bwd Header Length",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "122": {
+    "feature": "Bwd IAT Max",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "123": {
+    "feature": "Bwd IAT Mean",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "124": {
+    "feature": "Bwd IAT Min",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "125": {
+    "feature": "Bwd IAT Std",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "126": {
+    "feature": "Bwd IAT Total",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "127": {
+    "feature": "Bwd Packet Length Max",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "128": {
+    "feature": "Bwd Packet Length Mean",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "129": {
+    "feature": "Bwd Packet Length Min",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "130": {
+    "feature": "Bwd Packet Length Std",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "131": {
+    "feature": "Bwd Packets/s",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "132": {
+    "feature": "Destination Port",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "133": {
+    "feature": "Down/Up Ratio",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "134": {
+    "feature": "Flow Bytes/s",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "135": {
+    "feature": "Flow Duration",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "136": {
+    "feature": "Flow IAT Max",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "137": {
+    "feature": "Flow IAT Mean",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "138": {
+    "feature": "Flow IAT Min",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "139": {
+    "feature": "Flow IAT Std",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "140": {
+    "feature": "Flow Packets/s",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "141": {
+    "feature": "Fwd Header Length",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "142": {
+    "feature": "Fwd IAT Max",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "143": {
+    "feature": "Fwd IAT Mean",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "144": {
+    "feature": "Fwd IAT Min",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "145": {
+    "feature": "Fwd IAT Std",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "146": {
+    "feature": "Fwd IAT Total",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "147": {
+    "feature": "Fwd Packet Length Max",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "148": {
+    "feature": "Fwd Packet Length Mean",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "149": {
+    "feature": "Fwd Packet Length Min",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "150": {
+    "feature": "Fwd Packet Length Std",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "151": {
+    "feature": "Fwd Packets/s",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "152": {
+    "feature": "Idle Max",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "153": {
+    "feature": "Idle Mean",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "154": {
+    "feature": "Idle Min",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "155": {
+    "feature": "Init_Win_bytes_backward",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "156": {
+    "feature": "Init_Win_bytes_forward",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "157": {
+    "feature": "Max Packet Length",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "158": {
+    "feature": "Min Packet Length",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "159": {
+    "feature": "PSH Flag Count",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "160": {
+    "feature": "Packet Length Mean",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "161": {
+    "feature": "Packet Length Std",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "162": {
+    "feature": "Packet Length Variance",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "163": {
+    "feature": "Protocol",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "164": {
+    "feature": "Subflow Bwd Bytes",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "165": {
+    "feature": "Subflow Fwd Bytes",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "166": {
+    "feature": "Subflow Fwd Packets",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "167": {
+    "feature": "Total Fwd Packets",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "168": {
+    "feature": "Total Length of Bwd Packets",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "169": {
+    "feature": "Total Length of Fwd Packets",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "170": {
+    "feature": "min_seg_size_forward",
+    "ring": 2,
+    "delay_window_ms": [
+      15.0,
+      22.5
+    ]
+  },
+  "171": {
+    "feature": "ACK Flag Count",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "172": {
+    "feature": "Active Max",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "173": {
+    "feature": "Active Mean",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "174": {
+    "feature": "Active Min",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "175": {
+    "feature": "Average Packet Size",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "176": {
+    "feature": "Avg Bwd Segment Size",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "177": {
+    "feature": "Avg Fwd Segment Size",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "178": {
+    "feature": "Bwd Header Length",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "179": {
+    "feature": "Bwd IAT Max",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "180": {
+    "feature": "Bwd IAT Mean",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "181": {
+    "feature": "Bwd IAT Min",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "182": {
+    "feature": "Bwd IAT Std",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "183": {
+    "feature": "Bwd IAT Total",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "184": {
+    "feature": "Bwd Packet Length Max",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "185": {
+    "feature": "Bwd Packet Length Mean",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "186": {
+    "feature": "Bwd Packet Length Min",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "187": {
+    "feature": "Bwd Packet Length Std",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "188": {
+    "feature": "Bwd Packets/s",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "189": {
+    "feature": "Destination Port",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "190": {
+    "feature": "Down/Up Ratio",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "191": {
+    "feature": "Flow Bytes/s",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "192": {
+    "feature": "Flow Duration",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "193": {
+    "feature": "Flow IAT Max",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "194": {
+    "feature": "Flow IAT Mean",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "195": {
+    "feature": "Flow IAT Min",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "196": {
+    "feature": "Flow IAT Std",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "197": {
+    "feature": "Flow Packets/s",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "198": {
+    "feature": "Fwd Header Length",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "199": {
+    "feature": "Fwd IAT Max",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "200": {
+    "feature": "Fwd IAT Mean",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "201": {
+    "feature": "Fwd IAT Min",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "202": {
+    "feature": "Fwd IAT Std",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "203": {
+    "feature": "Fwd IAT Total",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "204": {
+    "feature": "Fwd Packet Length Max",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "205": {
+    "feature": "Fwd Packet Length Mean",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "206": {
+    "feature": "Fwd Packet Length Min",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "207": {
+    "feature": "Fwd Packet Length Std",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "208": {
+    "feature": "Fwd Packets/s",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "209": {
+    "feature": "Idle Max",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "210": {
+    "feature": "Idle Mean",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "211": {
+    "feature": "Idle Min",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "212": {
+    "feature": "Init_Win_bytes_backward",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "213": {
+    "feature": "Init_Win_bytes_forward",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "214": {
+    "feature": "Max Packet Length",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "215": {
+    "feature": "Min Packet Length",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "216": {
+    "feature": "PSH Flag Count",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "217": {
+    "feature": "Packet Length Mean",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "218": {
+    "feature": "Packet Length Std",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "219": {
+    "feature": "Packet Length Variance",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "220": {
+    "feature": "Protocol",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "221": {
+    "feature": "Subflow Bwd Bytes",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "222": {
+    "feature": "Subflow Fwd Bytes",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "223": {
+    "feature": "Subflow Fwd Packets",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "224": {
+    "feature": "Total Fwd Packets",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "225": {
+    "feature": "Total Length of Bwd Packets",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "226": {
+    "feature": "Total Length of Fwd Packets",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  },
+  "227": {
+    "feature": "min_seg_size_forward",
+    "ring": 3,
+    "delay_window_ms": [
+      22.5,
+      30.0
+    ]
+  }
+}
