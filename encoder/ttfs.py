@@ -6,7 +6,7 @@ import numpy as np
 # Максимально возможная задержка (общее время обработки одной записи), мс
 MAX_DELAY_MS = 30.0
 # Количество колец задержек (временных каналов)
-NUM_RINGS = 4
+NUM_RINGS = 5
 # Ширина кольца задержек, мс
 RING_WIDTH = MAX_DELAY_MS / NUM_RINGS
 # Максимально возможное колебание времени, мс
@@ -14,7 +14,7 @@ JITTER_FRAC = 0.005
 # Фиксация рандома
 RAND = np.random.RandomState(42)
 # Степени нелинейности для каждого из колец
-GAMMAS = [0.3, 0.7, 1.0, 1.5]
+GAMMAS = [1.05, 1.10, 1.15, 1.20, 1.25]
 
 
 
@@ -31,7 +31,7 @@ def load_feature_ranges(path):
 
 def build_encoder(
     feature_ranges,         # словарь диапазонов значений признаков
-    skip_zeros=False        # пропускать ли нулевые значения при кодировании
+    skip_zeros=True         # пропускать ли нулевые значения при кодировании
 ):
     assert len(GAMMAS) == NUM_RINGS, "Длина GAMMAS должна быть равна NUM_RINGS"
 
